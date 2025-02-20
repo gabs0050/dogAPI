@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(49, 45, 45);
+    padding: 16px;
+}
+
+#galeria {
+    display: column;
+    columns: 5;
+}
+
+#galeria img {
+    width: 100%;
+    padding-block: 4px;
+    gap: 12px;
+    border-radius: 12px;
+}
+
+#raca {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #pesquisar {
+    width: 130px;
+    height: 40px;
+    padding: 8px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #pesquisar:hover {
+    background-color: #3e8e41;
+  }
