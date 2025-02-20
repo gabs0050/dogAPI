@@ -12,6 +12,7 @@ body {
 #galeria {
     display: column;
     columns: 5;
+    margin-top: 12px;
 }
 
 #galeria img {
